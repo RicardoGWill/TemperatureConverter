@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String textFromEditText = inputEditText.getText().toString();
         // Turns the String into a Double so that it can go into a formula.
         inputNumber = Double.parseDouble(textFromEditText);
-        // Todo: If statement regarding the checked radio box.
+        // If statement regarding the checked radio box.
         if (cToFRadioButton.isChecked()) {
             // Uses the Double in a formula and returns a Double.
             convertedDouble = ((inputNumber * (1.8)) + 32);
